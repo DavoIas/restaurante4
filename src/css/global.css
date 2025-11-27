@@ -92,7 +92,11 @@ nav a:hover { color: #e0c465; }
 }
 
 /* ==== RESPONSIVO ==== */
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
+    .logo{
+        margin-left: 0%;
+    }
+
     nav {
         position: absolute;
         top: 100%;
